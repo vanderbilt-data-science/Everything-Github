@@ -1,0 +1,71 @@
+---
+title: "Exercises"
+output: html_document
+---
+
+```{r load packages}
+library(tidyverse)
+```
+
+#Exercise 1 (Group)
+
+Together as a group, we'll go through a complete cycle of the github workflow to contribute to code.
+```{r make a function to multiply by three}
+mult5 <- function(x){
+  return()
+}
+
+mult3(2) #Should return the value 10
+```
+
+#Exercise 2 (Breakout Room - part 1)
+Complete the function so that it adds the value five to a given input, x.
+Person 1 should make the c
+```{r}
+add5 <- function(x){
+  return()
+}
+
+add5(10) # Should return the value 10
+```
+
+#Exercise 2 (Breakout Room - part 2)
+Complete function so that it divides a given input, x, by the value 2
+```{r}
+
+div2 <- function(x){
+  return()
+}
+
+div2(20) # Should return the value 10
+```
+
+#Exercise 3 (Group)
+Complete the function so that it returns an input, x, to the power of 2
+```{r}
+power2 <- function(x){
+  return()
+}
+
+power2(5) #Should return 25
+```
+
+#Exercise 4 (Breakout Room - part 1)
+Complete the function so that it returns the square root of an input value, x.
+```{r}
+square_root <- function(x){
+  return()
+}
+
+square_root(144) #Should return the 12
+```
+
+#Exercise 4 (Breakout Room - part 2)
+Complete the function so that it returns the sum of a given input vector, x.
+```{r}
+sum_all <- function(x){
+  return()
+}
+
+sum_all(x = c(1,2,3)) #Should return 6
+```
