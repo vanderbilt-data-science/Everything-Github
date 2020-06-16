@@ -1,15 +1,16 @@
 ---
-title: "Exercises"
+title: "Exercises-intro-git-summer-2020"
 output: html_document
 ---
 
-```{r load packages}
-library(tidyverse)
-```
+#Introduction to Workflow
+
+See git-cheat-sheet.pdf file in the repository.
 
 #Exercise 1 (Group)
 
-Together as a group, we'll go through a complete cycle of the github workflow to contribute to code.
+Together as a group, we'll go through a complete cycle of the github workflow to contribute to code. In this set, we'll create a new repository using a template, clone the repository, and make code contributions to it. (As we go through together, Ben will be "Person 1" and Jesse will be "Person 2".)
+
 ```{r make a function to multiply by three}
 mult5 <- function(x){
   return()
@@ -21,15 +22,15 @@ mult3(2) #Should return the value 10
 #Setup (Breakout Room)
 1, Person 1's repository will be used for the remaining exercises. 
 2. Person 1 adds person 2 as an admin in their repository.
-3. Person 2 creates a new RStudio Cloud instance using Person 1's github repository.
-4. Person 2 adds in github credentials (sorry, not saved across instances!)
+3. Person 2 clones person 1's github repository, and using the git URL creates a new RStudio Cloud instance.
+4. Person 2 adds in their github credentials (sorry, not saved across instances!)
 
 #Exercise 2 (Breakout Room - person 1)
 
 Complete the function so that it adds the value five to a given input, x.
 Person 1 should make the change in code, and person 2 should manage the pull request.
 
-###Steps
+##Steps
 
 *Person 1:*
 
@@ -42,7 +43,6 @@ Person 1 should make the change in code, and person 2 should manage the pull req
 4. Commit - Write a commit message that completes the statement "With this commit I"....
 
 5. Push - click the "up" arrow in the git tab to send your changes to the remote repository. You'll have to enter your github credentials. 
-
 6. In the GitHub repository, make a pull request for the change.
 
 *Person 2:*
@@ -72,7 +72,10 @@ div2(20) # Should return the value 10
 ```
 
 #Exercise 3 (Group)
-Complete the function so that it returns an input, x, to the power of 2
+
+Now, we will go through the same steps again, but using the command line. Charreau will be "person 1" and "Ben will be person 2". 
+
+Complete the function so that it returns an input, x, to the power of 2. 
 
 ```{r make function to square a value}
 power2 <- function(x){
@@ -83,8 +86,27 @@ power2(5) #Should return 25
 ```
 
 #Exercise 4 (Breakout Room - part 1)
+
+*Person 1:*
+
+1. Create new branch (top right corner, git tab, branch icon). Name the branch "Exercise-2". The defaults settings work.
+
+2. Complete the function below. Save your work.
+
+3. Stage - click box beside file name in the git window.
+
+4. Commit - Write a commit message that completes the statement "With this commit I"....
+
+5. Push - click the "up" arrow in the git tab to send your changes to the remote repository. You'll have to enter your github credentials. 
+6. In the GitHub repository, make a pull request for the change.
+
+*Person 2:*
+7. Person 2 manages the pull request, merges and closes it. (In actuality/real world, we'd test the code before closing the pull request.)
+
+
 Complete the function so that it returns the square root of an input value, x.
 Person 1 should make the change in code, and person 2 should manage the pull request.
+
 ```{r make function for square root of value}
 square_root <- function(x){
   return()
