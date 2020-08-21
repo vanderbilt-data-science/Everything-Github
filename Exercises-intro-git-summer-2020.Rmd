@@ -43,10 +43,14 @@ Person 1 should make the change in code, and person 2 should manage the pull req
 4. Commit - Write a commit message that completes the statement "With this commit I"....
 
 5. Push - click the "up" arrow in the git tab to send your changes to the remote repository. You'll have to enter your github credentials. 
+
 6. In the GitHub repository, make a pull request for the change.
 
 *Person 2:*
 7. Person 2 manages the pull request, merges and closes it. (In actuality/real world, we'd test the code before closing the pull request.)
+
+*Both People*
+8. Pull the master branch back down to your local repository.
 
 ```{r person one codes}
 add5 <- function(x){
@@ -115,6 +119,8 @@ git push origin exercise-4
 *Person 2:*
 7. Person 2 manages the pull request, merges and closes it. (In actuality/real world, we'd test the code before closing the pull request.)
 
+*Both People*
+8. Pull the master branch back down to your local repository.
 
 ```{r make function for square root of value}
 square_root <- function(x){
