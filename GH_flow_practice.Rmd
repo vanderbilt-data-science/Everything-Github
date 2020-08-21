@@ -1,5 +1,5 @@
 ---
-title: "Exercises-intro-git-summer-2020"
+title: "GH_flow_practice"
 output: html_document
 ---
 
