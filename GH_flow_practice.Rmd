@@ -9,10 +9,11 @@ See git-cheat-sheet.pdf file in the repository.
 
 #Setup Demo (In Group)
 
-#Setup (In Breakout Rooms)
+#Setup (In Group)
+
 1. Person 1's repository will be used for the remaining exercises. 
 2. Person 1 adds person 2 as an admin in their repository.
-3. Person 2 clones person 1's github repository, and using the git URL creates a new RStudio Cloud instance.
+3. Person 2 clones person 1's github repository, and using the git URL creates a new RStudio project.
 
 
 #Exercise 1 (In Group)
@@ -24,7 +25,7 @@ mult3 <- function(x){
   return()
 }
 
-mult3(2) #Should return the value 10
+mult3(2) #Should return the value 6
 ```
 
 #Setup (In Breakout Rooms)
