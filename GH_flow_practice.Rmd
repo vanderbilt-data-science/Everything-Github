@@ -3,22 +3,22 @@ title: "GH_flow_practice"
 output: html_document
 ---
 
-#Introduction to Workflow
+#Introduction to GitHub Flow
 
 See git-cheat-sheet.pdf file in the repository.
 
-#Setup Demo (In Group)
+##Setup Demo (In Group)
 
-#Setup (In Group)
+As we go through the demo together, Charreau will be "Person 1" and Jesse will be "Person 2".
 
 1. Person 1's repository will be used for the remaining exercises. 
 2. Person 1 adds person 2 as an admin in their repository.
 3. Person 2 clones person 1's github repository, and using the git URL creates a new RStudio project.
 
 
-#Exercise 1 (In Group)
+##Exercise 1 (In Group)
 
-Together as a group, we'll go through a complete cycle of the GH Flow to contribute to code. In this set, we'll create a new repository using a template, clone the repository, and make code contributions to it. (As we go through together, Charreau will be "Person 1" and Jesse will be "Person 2".)
+Together as a group, we'll go through a complete cycle of the GH Flow to contribute to code. In this set, we'll create a new repository using a template, clone the repository, and make code contributions to it. 
 
 ```{r make a function to multiply by three}
 mult3 <- function(x){
@@ -28,18 +28,18 @@ mult3 <- function(x){
 mult3(2) #Should return the value 6
 ```
 
-#Setup (In Breakout Rooms)
+##Setup (In Breakout Rooms)
 1. Person 1's repository will be used for the remaining exercises. 
 2. Person 1 adds person 2 as an admin in their repository.
 3. Person 2 clones person 1's github repository, and using the git URL creates a new RStudio Cloud instance.
 4. Person 2 adds in their github credentials (sorry, not saved across instances!)
 
-#Exercise 2 Part 1 (In Breakout Room - person 1)
+##Exercise 2 Part 1 (In Breakout Room - person 1)
 
 Complete the function so that it adds the value five to a given input, x.
 Person 1 should make the change in code, and person 2 should manage the pull request.
 
-##Steps
+###Steps
 
 *Person 1:*
 
@@ -66,7 +66,7 @@ add5 <- function(x){
 add5(10) # Should return the value 15
 ```
 
-#Exercise 2 Part 2 (In Breakout Room - person 2)
+##Exercise 2 Part 2 (In Breakout Room - person 2)
 
 Follow the above steps, but now switch roles: person 2 do steps 1 - 6 for the function below, and person 1 do step 7.  Person 2 should begin by first clicking Pull (down arrow) to update your local repository with the remote changes.
 
@@ -82,7 +82,7 @@ div2 <- function(x){
 div2(20) # Should return the value 10
 ```
 
-#Exercise 3 (Group)
+##Exercise 3 (Group)
 
 Now, we will go through the same steps again, but using the command line. Charreau will be "person 1" and "Ben will be person 2". 
 
@@ -96,7 +96,7 @@ power2 <- function(x){
 power2(5) #Should return 25
 ```
 
-#Exercise 4 (Breakout Room - part 1)
+##Exercise 4 (Breakout Room - part 1)
 
 Complete the function so that it returns the square root of an input value, x.
 
@@ -141,7 +141,7 @@ square_root <- function(x){
 square_root(144) #Should return the 12
 ```
 
-#Exercise 4 (Breakout Room - part 2)
+##Exercise 4 (Breakout Room - part 2)
 
 Complete the function so that it returns the sum of a given input vector, x.
 
