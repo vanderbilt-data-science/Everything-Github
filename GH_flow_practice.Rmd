@@ -9,7 +9,7 @@ See git-cheat-sheet.pdf file in the repository.
 
 ##Setup Demo (In Group)
 
-As we go through the demo together, Charreau will be "Person 1" and Jesse will be "Person 2".
+As we go through the demo together, Charreau will be "Person 1" and Umang will be "Person 2".
 
 1. Person 1's repository will be used for the remaining exercises. 
 2. Person 1 adds person 2 as an admin in their repository.
@@ -31,8 +31,7 @@ mult3(2) #Should return the value 6
 ##Setup (In small groups)
 1. Person 1's repository will be used for the remaining exercises. 
 2. Person 1 adds person 2 as an admin in their repository.
-3. Person 2 clones person 1's github repository, and using the git URL creates a new RStudio Cloud instance.
-4. Person 2 adds in their github credentials (sorry, not saved across instances!)
+3. Person 2 clones person 1's github repository
 
 ##Exercise 2 Part 1 (In small group - person 1)
 
@@ -51,7 +50,7 @@ Person 1 should make the change in code, and person 2 should manage the pull req
 
 4. Commit - Write a commit message that completes the statement "With this commit I"....
 
-5. Push - click the "up" arrow in the git tab to send your changes to the remote repository. You'll have to enter your github credentials. 
+5. Push - click the "up" arrow in the git tab to send your changes to the remote repository. 
 
 6. In the GitHub repository, make a Pull Request for the change.
 
@@ -84,7 +83,7 @@ div2(20) # Should return the value 10
 
 ##Exercise 3 (Group)
 
-Now, we will go through the same steps again, but using the command line. Charreau will be "person 1" and "Ben will be person 2". 
+Now, we will go through the same steps again, but using the command line. Charreau will be "person 1" and "Umang will be person 2". 
 
 Complete the function so that it returns an input, x, to the power of 2. 
 
