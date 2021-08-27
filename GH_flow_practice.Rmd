@@ -81,7 +81,11 @@ div2 <- function(x){
 div2(20) # Should return the value 10
 ```
 
-##Exercise 3 (Group)
+##Exercise 3 (In small group)
+
+Dealing with merge conflicts. Follow the directions at the following link: https://docs.google.com/document/d/1dnVQZ-Mpmjr5s0Or0BobJ_Oxcb0_jWmFRG560t-zoNk/edit#heading=h.5iinrmlngq2r
+
+##Exercise 4 (Group)
 
 Now, we will go through the same steps again, but using the command line. Charreau will be "person 1" and "Umang will be person 2". 
 
@@ -95,7 +99,7 @@ power2 <- function(x){
 power2(5) #Should return 25
 ```
 
-##Exercise 4 (In small group - Part 1)
+##Exercise 5 (In small group - Part 1)
 
 Complete the function so that it returns the square root of an input value, x.
 
@@ -140,7 +144,7 @@ square_root <- function(x){
 square_root(144) #Should return the 12
 ```
 
-##Exercise 4 (In small group - Part 2)
+##Exercise 5 (In small group - Part 2)
 
 Complete the function so that it returns the sum of a given input vector, x.
 
